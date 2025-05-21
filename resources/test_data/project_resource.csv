@@ -1,0 +1,67 @@
+﻿ResourceCode,Id,Description,UnitOfMeasure,BaseRate_onDate,MaxUnits_per_day,ResourceType
+,Excavator,,Per day,8000,,EquipmentResource
+,Bulldozer,,,,,EquipmentResource
+,Crane,,,,,EquipmentResource
+,ConcreteMixer,,Per day,2500,,EquipmentResource
+,BackhoeLoader,,,,,EquipmentResource
+,DumpTruck,,,,,EquipmentResource
+,Forklift,,,,,EquipmentResource
+,Scaffolding,,Per Sqft,100,,EquipmentResource
+,WheelLoader,,,,,EquipmentResource
+,Compactor,,Per day,2000,,EquipmentResource
+,PileDriver,,,,,EquipmentResource
+,Grader,,,,,EquipmentResource
+,Trencher,,,,,EquipmentResource
+,TowerCrane,,,,,EquipmentResource
+,BoomLift,,,,,EquipmentResource
+,AirCompressor,,,,,EquipmentResource
+,Jackhammer,,,,,EquipmentResource
+,WeldingMachine,,,,,EquipmentResource
+,ConcretePump,,,,,EquipmentResource
+,SurveyingEquipment,,,,,EquipmentResource
+,Vibrator,,Per day,500,,EquipmentResource
+,Concrete,,,,,MaterialResource
+,Steel,,Per kg,70,,MaterialResource
+,Wood,,,,,MaterialResource
+,Brick,,Per No,6,,MaterialResource
+,Glass,,,,,MaterialResource
+,Aluminum,,,,,MaterialResource
+,Asphalt,,,,,MaterialResource
+,Copper,,,,,MaterialResource
+,Sand,,Per cum,1500,,MaterialResource
+,Gravel,,,,,MaterialResource
+,Gypsum,,,,,MaterialResource
+,Clay,,,,,MaterialResource
+,Plastic,,,,,MaterialResource
+,PVC,,,,,MaterialResource
+,Stone,,,,,MaterialResource
+,Fiberglass,,,,,MaterialResource
+,Insulation,,,,,MaterialResource
+,Ceramic,,,,,MaterialResource
+,Mortar,,,,,MaterialResource
+,Paint,,Per liter,300,,MaterialResource
+,WaterproofingMaterial,,Per kg_liter,400,,MaterialResource
+,Tiles,,Per sqft,50,,MaterialResource
+,ConcreteBlocks,,Per No,35,,MaterialResource
+,Cement,,Per bag,400,,MaterialResource
+,Aggregates,,Per cum,2000,,MaterialResource
+,Carpenter,,Per day,700,,LaborResource
+,Mason,,Per day,600,,LaborResource
+,Electrician,,Per day,700,,LaborResource
+,Plumber,,Per day,700,,LaborResource
+,Welder,,,,,LaborResource
+,SteelFixer,,,,,LaborResource
+,Painter,,Per day,500,,LaborResource
+,CraneOperator,,,,,LaborResource
+,ExcavatorOperator,,,,,LaborResource
+,Laborer,,Per day,400,,LaborResource
+,Foreman,,,,,LaborResource
+,Surveyor,,Per day,800,,LaborResource
+,Roofer,,,,,LaborResource
+,TileSetter,,,,,LaborResource
+,ConcreteWorker,,,,,LaborResource
+,HeavyEquipmentOperator,,,,,LaborResource
+,SafetyOfficer,,,,,LaborResource
+,ProjectManager,,,,,LaborResource
+,SiteEngineer,,,,,LaborResource
+,Architect,,,,,LaborResource

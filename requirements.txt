@@ -1,0 +1,8 @@
+streamlit
+owlready2
+pandas
+plotly
+streamlit-echarts
+numpy
+streamlit-elements
+pyvis

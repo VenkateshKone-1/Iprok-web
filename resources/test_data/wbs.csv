@@ -1,0 +1,7 @@
+﻿Id,Name,Description,ParentWBS,Tasks
+WBS_001,Pre-Construction,Entire pre-construction phase.,,
+WBS_002,Foundation,Entire foundation phase.,,
+WBS_003,Superstructure,Construction above foundation.,,
+WBS_004,Roofing,Roof slab and waterproofing.,,
+WBS_005,Finishing Works,Interior and exterior finishes.,,
+WBS_006,External Development,Compound wall and landscaping.,,
