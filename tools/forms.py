@@ -23,7 +23,7 @@ def create_project_form(schema_path):
         }
         submitted = st.form_submit_button("Create Project")
         if submitted:
-            helper.add_project(project_data, schema_path)
+            # helper.add_project(project_data, schema_path)
             st.success("Project added successfully!")
             st.rerun()
             
@@ -40,7 +40,7 @@ def create_wbs_form(project_path):
         }
         submitted = st.form_submit_button("Create WBS")
         if submitted:
-            helper.add_wbs(wbs_data, project_path)
+            # helper.add_wbs(wbs_data, project_path)
             st.success("WBS added successfully!")
             st.rerun()
 
@@ -108,8 +108,8 @@ def create_task_form(project_path):
             task_data['Predecessors'] = [task_name_to_id[predecessor] for predecessor in task_data['Predecessors'] if predecessor != "None"]
             task_data['Resources'] = [resource.strip() for resource in task_data['Resources'].split(",") if resource.strip()]
             # Add the task to the ontology
-            st.write(task_data)
-            helper.add_task(task_data, project_path)
+            # st.write(task_data)
+            # helper.add_task(task_data, project_path)
             st.success("Task added successfully!")
             st.rerun()
             
@@ -154,10 +154,10 @@ def load_task_from_csv_form(project_path):
                     row['Resources'] = [resource.strip() for resource in row['Resources'].strip("[]").replace("'", "").split(",") if resource.strip()]
                 if 'Predecessors' in row and isinstance(row['Predecessors'], str):
                     row['Predecessors'] = [predecessor.strip() for predecessor in row['Predecessors'].strip("[]").replace("'", "").split(",") if predecessor.strip()]
-                st.write(row)
-                helper.add_task(row, project_path)
-            # st.success("Task loaded and updated successfully!")
-            # st.rerun()
+                # st.write(row)
+                # helper.add_task(row, project_path)
+            st.success("Task loaded and updated successfully!")
+            st.rerun()
 
 @st.dialog("Load Resources from CSV", width="large")
 def load_resources_from_csv_form(project_path):
@@ -261,7 +261,7 @@ def create_resource_form(project_path):
                 'IsPrimaryResource': is_primary,
                 'BudgetedUnits': budgeted_units,
             }
-            helper.update_resource_assignments(new_resource_data, project_path)
+            # helper.update_resource_assignments(new_resource_data, project_path)
             st.success("Resource added successfully!")
             st.rerun()
             
@@ -325,7 +325,7 @@ def create_project_resource_form(project_path):
             resource_data['Description'] = resource_data['Description'] if resource_data['Description'] else None
             resource_data['BaseRate_onDate'] = resource_data['BaseRate_onDate'] if resource_data['BaseRate_onDate'] is not None and not math.isnan(resource_data['BaseRate_onDate']) else None
             resource_data['MaxUnits_per_day'] = resource_data['MaxUnits_per_day'] if resource_data['MaxUnits_per_day'] is not None and not math.isnan(resource_data['MaxUnits_per_day']) else None
-            helper.add_project_resource(resource_data, project_path)
+            # helper.add_project_resource(resource_data, project_path)
             st.success("Resource added successfully!")
             st.rerun()
 
